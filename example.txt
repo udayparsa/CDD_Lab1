@@ -1,1 +1,28 @@
-using ubuntu pushing
+PUSHING FILES TO GITHUB FROM UBUNTU
+sudo apt update
+
+sudo apt install git
+
+git config --global user.name "     "
+
+git config --global user.email "     "
+
+mkdir cdd_lab
+
+cd cdd_lab
+
+git init
+
+touch example.txt
+
+ls
+
+echo "using ubuntu pushing files into github"> example.txt
+
+git add .
+
+git remote add origin repo_url
+
+git commit -m "message"
+
+git push origin master
